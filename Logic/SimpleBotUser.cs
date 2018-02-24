@@ -9,7 +9,8 @@ namespace SimpleBot
     {
         public static string Reply(Message message)
         {
-            return $"{message.User} disse '{message.Text}'";
+            //return $"{message.User} disse '{message.Text}'";
+              return $"{message.User} disse '{message.Text}'";
         }
 
         public static UserProfile GetProfile(string id)
